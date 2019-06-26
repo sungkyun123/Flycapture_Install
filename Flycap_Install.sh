@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#--Flycapture install manual-- (ver 1.0.1)
+#--Flycapture install manual-- (ver 1.0.2)
 # 1. You must compile with the following command:
-#	chmod 700 install_auto.sh
-#	./install_auto.sh
+#	chmod 700 Flycap_Install.sh
+#	./Flycap_Install.sh
 # 2. You must install "Flycapture" after installing Autoware.
 # 3. You must download the zip file with the path set to home/Downloads/.
 # 4. During installation, write y to all y / n questions. 
