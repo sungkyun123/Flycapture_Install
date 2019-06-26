@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#--Flycapture install manual-- (ver 1.0.2)
+#--Flycapture install manual-- (ver 1.1.0)
 # 1. You must compile with the following command:
 #	chmod 700 Flycap_Install.sh
 #	./Flycap_Install.sh
@@ -12,12 +12,15 @@
 # sungkyun123@dgist.ac.kr
 # lekymi@dgist.ac.kr
 
-sudo apt install -f
+cd ~/Download
 
-cd Downloads
-
-cd tar -xvzf flycapture2-2.13.3.31-amd64-pkg_xenial.tgz
+tar -xvzf flycapture2-2.13.3.31-amd64-pkg_xenial.tgz
 
 cd flycapture2-2.13.3.31-amd64
 
 ./install_flycapture.sh
+
+sudo apt install -f
+
+./install_flycapture.sh
+
